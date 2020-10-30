@@ -1,6 +1,7 @@
 ![Просмотры профиля](https://gpvc.arturio.dev/kotleni)
 
 ## Мой стэк
+![Android](https://img.shields.io/badge/-android-green?logo=android&logoColor=white&style=flat-square) 
 ![kotlin](https://img.shields.io/badge/-Kotlin-orange?logo=kotlin&logoColor=white&style=flat-square)
 ![java](https://img.shields.io/badge/-Java-success?logo=java&logoColor=white&style=flat-square)
 ![python](https://img.shields.io/badge/-Python-%230075a8?logo=python&logoColor=white&style=flat-square)
