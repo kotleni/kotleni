@@ -15,5 +15,5 @@
 <a href="mailto:yavarenikya@gmail.com">📩 E-mail: `yavarenikya@gmail.com`</a>
 
 ## Поддержать
-<!--a href="https://ko-fi.com/kotleni"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5ca5bf1dff3c03fbf7cc9b3c_Kofi_logo_RGB_rounded.png" width=16 height=16/> Kofi</a-->
+<a href="https://ko-fi.com/kotleni"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5ca5bf1dff3c03fbf7cc9b3c_Kofi_logo_RGB_rounded.png" width=16 height=16/> Kofi</a>
 <a href="https://qiwi.com/p/380993319785"><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Qiwi-icon.png" width=16 height=16/> Qiwi</a>
