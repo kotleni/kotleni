@@ -16,5 +16,5 @@
 
 ## Поддержать
 <!--a href="https://ko-fi.com/kotleni"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5ca5bf1dff3c03fbf7cc9b3c_Kofi_logo_RGB_rounded.png" width=16 height=16/> Kofi</a><br-->
-<a href="https://qiwi.com/p/380993319785"><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Qiwi-icon.png" width=16 height=16/> <b>Qiwi:</b></a> ```+380993319785```<br>
+<a href="https://qiwi.com/n/KOTLENI"><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Qiwi-icon.png" width=16 height=16/> <b>Qiwi:</b></a> ```+380993319785```<br>
 <b><img src="https://pbs.twimg.com/profile_images/957912926127579136/Vchzj67S_400x400.jpg" width=16 height=16/></b> PrivatBank: ```5168 7573 2328 0042```
