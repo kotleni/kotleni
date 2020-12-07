@@ -1,3 +1,5 @@
+![С новым годом!](https://github.com/kotleni/kotleni/blob/master/snow.png?raw=true)
+
 ![Просмотры профиля](https://gpvc.arturio.dev/kotleni)
 
 ## Мой стэк
