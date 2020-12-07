@@ -1,4 +1,4 @@
-![С новым годом!](https://github.com/kotleni/kotleni/blob/master/snow.png?raw=true)
+<img align="right" src="https://github.com/kotleni/kotleni/blob/master/snow.png?raw=true"></img>
 
 ![Просмотры профиля](https://gpvc.arturio.dev/kotleni)
 
