@@ -1,4 +1,4 @@
-<a href="#"><img align="right" src="https://github.com/kotleni/kotleni/blob/master/APK_format_icon.png?raw=true"></img></a>
+<a href="#"><img width="60" align="right" src="https://github.com/kotleni/kotleni/blob/master/APK_format_icon.png?raw=true"></img></a>
 
 ![Просмотры профиля](https://gpvc.arturio.dev/kotleni)
 
