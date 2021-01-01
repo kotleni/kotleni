@@ -1,4 +1,4 @@
-<a href="https://github.com/kotleni/happy-new-year"><img align="right" src="https://github.com/kotleni/kotleni/blob/master/snow.png?raw=true"></img></a>
+<!--a href="https://github.com/kotleni/happy-new-year"><img align="right" src="https://github.com/kotleni/kotleni/blob/master/snow.png?raw=true"></img></a-->
 
 ![Просмотры профиля](https://gpvc.arturio.dev/kotleni)
 
