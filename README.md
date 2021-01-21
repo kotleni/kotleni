@@ -15,7 +15,8 @@
 
 ## Связь со мной 💭
 <a href="https://t.me/kotleni"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" width=16 height=16 align="center" /> Telegram</a><br>
-<a href="mailto:yavarenikya@gmail.com">📩 E-mail: `yavarenikya@gmail.com`</a>
+<a href="https://twitter.com/kotleni_"><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/9/9f/Twitter_bird_logo_2012.svg/99px-Twitter_bird_logo_2012.svg.png" width=16 height=16 align="center" /> Twitter</a><br>
+<a href="mailto:yavarenikya@gmail.com">📩 E-mail: `yavarenikya@gmail.com`</a><br>
 
 ## Поддержать
 <!--a href="https://ko-fi.com/kotleni"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5ca5bf1dff3c03fbf7cc9b3c_Kofi_logo_RGB_rounded.png" width=16 height=16/> Kofi</a><br-->
