@@ -1,4 +1,4 @@
-<a href="http://hjee.xyz"><img width="60" align="right" src="https://findicons.com/files/icons/129/soft_scraps/256/my_websites_01.png"></img></a>
+<a href="http://hjee.xyz"><img width="60" align="right" src="https://github.com/kotleni/kotleni.github.io/blob/master/assets/icon.png?raw=true"></img></a>
 
 <!-- [Просмотры профиля](https://gpvc.arturio.dev/kotleni) -->
 
