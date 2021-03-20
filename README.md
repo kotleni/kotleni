@@ -6,11 +6,10 @@
 
 <!-- [Просмотры профиля](https://gpvc.arturio.dev/kotleni) -->
 
-## Стэк 📱
+## Основной стэк 📱
 ![Android](https://img.shields.io/badge/-Android-green?logo=android&logoColor=white&style=flat-square) 
 ![kotlin](https://img.shields.io/badge/-Kotlin-orange?logo=kotlin&logoColor=white&style=flat-square)
 ![java](https://img.shields.io/badge/-Java-success?logo=java&logoColor=white&style=flat-square)
-![python](https://img.shields.io/badge/-Python-%230075a8?logo=python&logoColor=white&style=flat-square)
 ![php](https://img.shields.io/badge/-PHP-%230065a8?logo=php&logoColor=white&style=flat-square)
 ![js](https://img.shields.io/badge/-JavaScript-%23e9d54c?logo=javascript&logoColor=white&style=flat-square)
 ![html](https://img.shields.io/badge/-HTML-%23de4b25?logo=html5&logoColor=white&style=flat-square)
