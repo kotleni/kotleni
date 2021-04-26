@@ -23,7 +23,7 @@
 <a href="mailto:yavarenikya@gmail.com">📩 E-mail: `yavarenikya@gmail.com`</a><br>
 
 ## Поддержать 💵
-<!--a href="https://ko-fi.com/kotleni"><img src="https://uploads-ssl.webflow.com/5c14e387dab576fe667689cf/5ca5bf1dff3c03fbf7cc9b3c_Kofi_logo_RGB_rounded.png" width=16 height=16/> Kofi</a><br-->
+<a href="https://boosty.to/kotleni"><img src="https://analitikishkola.ru/wp-content/uploads/2020/07/avatar.png" width=16 height=16/> Boosty</a><br>
 <a href="https://qiwi.com/n/KOTLENI"><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Qiwi-icon.png" width=16 height=16/> <b>Qiwi:</b></a> ```+380993319785```<br>
 <b><img src="https://privatbank.ua/sites/pb/img/favicon/favicon.ico?v=23.4.0" width=16 height=16/></b> PrivatBank: ```5168 7573 2328 0042```
 
