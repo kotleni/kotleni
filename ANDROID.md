@@ -12,7 +12,8 @@ MVP/MVVM, Rest API, Gson, Retrofit,
 Fuel , Firebase, Custom View
 Thread/Kotlin Coroutines, Data Binding,
 Gradle, Google Billing, AppsFlyer,
-ConstraintLayout, Services, 
+ConstraintLayout, Services, OkHttp,
+Navigation, Google Billing, etc.
 ```
 
 ## Примеры работ
