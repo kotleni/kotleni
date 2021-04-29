@@ -1,4 +1,4 @@
-## My name is Victor <a href="https://github.com/kotleni/kotleni/edit/master/ANDROID_EN.md">[EN]</a>
+## My name is Victor <a href="https://github.com/kotleni/kotleni/edit/master/ANDROID.md">[RU]</a>
 
 I have been fully developing for Android - for over three years now. <br>
 I accept possible vacancies for work alone or as a team. <br>
