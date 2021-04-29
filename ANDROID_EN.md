@@ -17,7 +17,7 @@ Navigation, Google Billing, etc.
 ```
 
 ## My projects examples
-<a href="https://github.com/kotleni/code-android">Code на Github</code><br>
+<a href="https://github.com/kotleni/code-android">Code on Github</code><br>
 
 ## Communication with me
 <a href="https://t.me/kotleni"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" width=16 height=16 align="center" /> Telegram</a><br>
