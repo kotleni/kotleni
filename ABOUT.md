@@ -4,7 +4,7 @@
 | ------------- | ------------- |
 | Имя | Виктор |
 | Дата рождения | 02.09.2002 |
-| Страна | Украина |
+| Адрес | Украина, Харьков |
 | Образование  | Школа + Лицей |
 | Интересы  | IT; Программирование; Радиотехника |
 | Отношения  | нету |
@@ -18,4 +18,4 @@
 | https://t.me/ReTeenPub | Мой канал в телеграм |
 | https://twitter.com/kotleni_&so=1 | Я в твиттере |
 | https://github.com/kotleni | Мой Github аккаунт |
-| https://github.com/kotleni | Мой Github аккаунт |
+| https://play.google.com/store/apps/details?id=unicon.metro.kharkiv | Мой приложение в Play Market |
