@@ -3,6 +3,8 @@
 |   |  |
 | ------------- | ------------- |
 | Имя | Виктор |
+| email | yavarenikya@gmail.com, varenik2002v@gmail.com |
+| Возможные ники | kotleni, baddev (старый), UltraAnanasikD, UltraAnanasik, Семпай |
 | Дата рождения | 02.09.2002 |
 | Адрес | Украина, Харьков |
 | Образование  | Школа + Лицей |
