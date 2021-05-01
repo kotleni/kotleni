@@ -1,4 +1,4 @@
-## Меня зовут Виктор <a href="https://github.com/kotleni/kotleni/edit/master/ANDROID_EN.md">[EN]</a>
+## Меня зовут Виктор <a href="https://github.com/kotleni/kotleni/master/ANDROID_EN.md">[EN]</a>
 
 Я полноценно разрабатываю под Android - уже более трех лет.<br>
 Принимаю возможные вакансии для работы в одиночку или коммандой.<br>
