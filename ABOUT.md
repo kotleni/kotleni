@@ -22,6 +22,6 @@
 | ------------- | ------------- |
 | https://t.me/kotleni | Мой телеграм  |
 | https://t.me/ReTeenPub | Мой канал в телеграм |
-| https://twitter.com/kotleni_&so=1 | Я в твиттере |
+| https://twitter.com/kotleni_?so=1 | Я в твиттере |
 | https://github.com/kotleni | Мой Github аккаунт |
 | https://play.google.com/store/apps/details?id=unicon.metro.kharkiv | Мой приложение в Play Market |
