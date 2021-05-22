@@ -23,7 +23,7 @@
 <!-- инсту заблочили, Facebook идет в одно место | a href="https://instagram.com/kotleni.ph"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/768px-Instagram_logo_2016.svg.png" width=16 height=16 align="center" /> Instagram</a><br--><a href="mailto:yavarenikya@gmail.com">📩 E-mail: `yavarenikya@gmail.com`</a><br>
 
 ## Поддержать 💵
-<a href="https://boosty.to/kotleni"><img src="https://analitikishkola.ru/wp-content/uploads/2020/07/avatar.png" width=16 height=16/> Boosty</a><br>
+<!--a href="https://boosty.to/kotleni"><img src="https://analitikishkola.ru/wp-content/uploads/2020/07/avatar.png" width=16 height=16/> Boosty</a><br-->
 <a href="https://qiwi.com/n/KOTLENI"><img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Qiwi-icon.png" width=16 height=16/> <b>Qiwi:</b></a> ```+380993319785```<br>
 <b><img src="https://privatbank.ua/sites/pb/img/favicon/favicon.ico?v=23.4.0" width=16 height=16/></b> PrivatBank: ```5168 7573 2328 0042```
 
