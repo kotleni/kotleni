@@ -6,11 +6,6 @@
 
 😮 В данный момент, я рассматриваю вакансии для работы - смотрите <a href="https://github.com/kotleni/kotleni/blob/master/%D0%A0%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5.docx?raw=true">резюме</a><br>
 
-### Основной стэк 📱
-Android SDK, Rest API, Gson, Fuel, Retrofit, OkHttp, Firebase, Cutstom View,
-CoordinatorLayout, Material Components, Material Dialogs, Room, Data Building, Google Billing,
-ViewPager, Fragments, WebView, NFC, Scoped storage, Services, AppsFlyer, Navigation…
-
 ### Связь со мной 💭
 <a href="https://t.me/kotleni"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" width=16 height=16 align="center" /> Telegram</a><br>
 
