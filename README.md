@@ -8,6 +8,6 @@
 
 ### Связь со мной 💭
 <a href="https://t.me/kotleni"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/768px-Telegram_logo.svg.png" width=16 height=16 align="center" /> Telegram</a><br>
-Email: <a href=email:"yavarenikya@gmail.com">yavarenikya@gmail.com</a><br>
+<a href="email:yavarenikya@gmail.com">yavarenikya@gmail.com</a><br>
 
 <!-- хэй, а ты любопытный! -->
