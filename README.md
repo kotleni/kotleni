@@ -13,4 +13,4 @@ My name is Victor and I am an Android developer. This is my Github.<br>
 ### Follow me
 
 [![Telegram](https://img.shields.io/badge/-Telegram-070c0f?style=for-the-badge)](https://t.me/kotleni)
-[![GMAIL](https://img.shields.io/badge/-GMAIL-070c0f?style=for-the-badge)](email:yavarenikya@gmail.com)
+<a href="https://raw.githubusercontent.com/kotleni/kotleni/master/gmail.md"><img src="https://img.shields.io/badge/-GMAIL-070c0f?style=for-the-badge"/></a>
