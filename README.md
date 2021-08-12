@@ -1,6 +1,6 @@
 ## Hi everyone! 👋
-My name is Victor and I am an Android developer. This is my Github.<br>
-😮 At the moment, I am considering vacancies for work - see <a href="https://github.com/kotleni/kotleni/blob/master/%D0%A0%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5.docx?raw=true">resume</a><br>
+<b>My name is Victor and I am an Android developer. This is my Github.<br>
+😮 At the moment, I am considering vacancies for work - see <a href="https://github.com/kotleni/kotleni/raw/master/resume_android.docx?raw=true">resume</a><br></b>
 
 ### Languages 
 
