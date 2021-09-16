@@ -1,7 +1,8 @@
 ## Hi everyone! 👋
 <b>My name is Victor and I am an Android developer. This is my Github.<br>
 😮 At the moment, I am considering vacancies for work - see <a href="https://github.com/kotleni/kotleni/raw/master/resume_android.docx?raw=true">resume</a><br></b>
-
+<br>
+💰 <b>Fundraising for Macbook M1.</b>
 ### Languages 
 
 ![java](https://img.shields.io/badge/-Java-070c0f?style=for-the-badge)
