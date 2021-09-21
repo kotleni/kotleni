@@ -2,7 +2,7 @@
 <b>My name is Victor and I am an Android developer. This is my Github.<br>
 😮 At the moment, I am considering vacancies for work - see <a href="https://github.com/kotleni/kotleni/raw/master/resume_android.docx?raw=true">resume</a><br></b>
 <br>
-💰 <b>Fundraising for Macbook M1.</b>
+💰 <b>I'm on <a href="https://ru.stackoverflow.com/users/296757/kotleni">Stackoverflow на русском</a></b>
 ### Languages 
 
 ![java](https://img.shields.io/badge/-Java-070c0f?style=for-the-badge)
