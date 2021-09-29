@@ -14,6 +14,7 @@
 ### Follow me
 
 [![Telegram](https://img.shields.io/badge/-Telegram-070c0f?style=for-the-badge)](https://t.me/kotleni)
+[![Stackoverflow RU](https://img.shields.io/badge/-Stackoverflow-070c0f?style=for-the-badge)](https://ru.stackoverflow.com/users/296757/kotleni)
 <a href="https://raw.githubusercontent.com/kotleni/kotleni/master/gmail.md"><img src="https://img.shields.io/badge/-GMAIL-070c0f?style=for-the-badge"/></a>
 
 <!-- 🤡: hello, how are you? -->
