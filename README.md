@@ -1,6 +1,6 @@
 ## Hi everyone! 👋
 <b>My name is Victor and I am an Android and iOS developer. This is my Github.<br>
-😮 At the moment, I am considering vacancies for work - see resume for <a href="https://github.com/kotleni/kotleni/raw/master/resume.pdf?raw=false">Android</a><br></b>
+😮 At the moment, I am considering vacancies for work - see resume for <a href="https://cord-attraction-899.notion.site/Resume-9c591d0061cb40ab899cb87e520387da">Android</a><br></b>
 ### Languages 
 
 ![java](https://img.shields.io/badge/-Java-070c0f?style=for-the-badge)
