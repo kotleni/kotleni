@@ -1,4 +1,4 @@
-## ![ladno](https://rf0x3d.su/maybe_assets/music_outline_28.svg) Spotify Now Playing
+## 🎵 Spotify Now Playing
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=i84tzwcrtemtooed617u5jlqc&cover_image=true&theme=novatorem)](https://github.com/kittinan/spotify-github-profile)
 
