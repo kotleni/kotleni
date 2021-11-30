@@ -3,7 +3,7 @@
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=i84tzwcrtemtooed617u5jlqc&cover_image=true&theme=novatorem)](https://github.com/kittinan/spotify-github-profile)-->
 
 ## 👋 Hi everyone! 
-<b>My name is Victor. I am an Android and iOS developer. This is my Github.<br>
+<b>My name is Victor. I am an Android developer. This is my Github.<br>
 At the moment, I am considering vacancies for work - see resume for <a href="https://cord-attraction-899.notion.site/Resume-9c591d0061cb40ab899cb87e520387da">Android</a><br></b>
 <b>Supporter of the GNU General Public License v3.0</b>. <!--b>My public </b><a href="https://github.com/kotleni/kotleni/blob/master/API.md">API</a--><br>
 
