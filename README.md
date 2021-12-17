@@ -5,7 +5,7 @@ I also write in other languages. 🤡
   
 ## 😵 Languages 
 
-![java](https://img.shields.io/badge/-Java-070c0f)
+![java](https://img.shields.io/badge/-Java-070c0f?style=flat-square)
 ![kotlin](https://img.shields.io/badge/-Kotlin-070c0f)
 ![php](https://img.shields.io/badge/-PHP-070c0f)
 ![pytohn](https://img.shields.io/badge/-Python-070c0f)
@@ -14,8 +14,7 @@ I also write in other languages. 🤡
 ![JS](https://img.shields.io/badge/-JS-070c0f)
 
 ## 🥳 Follow me
-
-[![Telegram](https://img.shields.io/badge/-Telegram-070c0f)](https://t.me/kotleni)
-<a href="https://raw.githubusercontent.com/kotleni/kotleni/master/gmail.md"><img src="https://img.shields.io/badge/-GMAIL-070c0f"/></a>
-
+- Telegram: https://t.me/kotleni
+- Email: yavarenikya@gmail.com 
+  
 <!-- 🤡: lol? -->
