@@ -5,7 +5,7 @@ I also write in other languages. 🤡
   
 ## 😵 Languages 
 
-![java](https://img.shields.io/badge/-Java-070c0f?style=flat-square)
+![java](https://img.shields.io/badge/-Java-070c0f)
 ![kotlin](https://img.shields.io/badge/-Kotlin-070c0f)
 ![php](https://img.shields.io/badge/-PHP-070c0f)
 ![pytohn](https://img.shields.io/badge/-Python-070c0f)
