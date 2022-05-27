@@ -1,6 +1,6 @@
 ## 👋 Welcome to my Github!
 <b>My name is Victor. I am an Android developer. Live in Ukraine.<br>
-At the moment, I am considering Android vacancies for work. See my resume for <a href="https://cord-attraction-899.notion.site/Resume-9c591d0061cb40ab899cb87e520387da">Android</a><br>
+At the moment, I am considering Android/iOS vacancies for work. See my resume for <a href="https://cord-attraction-899.notion.site/Victor-Varenik-e73de1a1d22b42aeac03fa9aadf4760c">Android</a> and <a href="https://cord-attraction-899.notion.site/Victor-Varenik-c32b5625880a450f90ef0dd389b116b4">iOS</a><br>
 I also write in other languages. 🤡
   
 ## 😵 Languages 
