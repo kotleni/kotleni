@@ -1,13 +1,13 @@
 ### 👋 Welcome to my Github!
-```kotlin
-class Kotleni: Developer(
-  fullName = "Victor Varenik",
-  country = "Ukraine",
-  age = 19,
-  
-  resume = readme.resumeList["Resume"],
-  contacts = readme.contacts
-)
+```swift
+class Kotleni: Developer {
+    var fullName: String = "Victor Varenik"
+    var countryName: String = "Ukraine"
+    var realAge: Int = 19
+
+    var resume: Resume = readme.resumeDict["iOS"]!
+    var contacts: [String] = readme.contactsList
+}
 ```
 
 ### Resume
