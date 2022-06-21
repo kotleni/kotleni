@@ -5,7 +5,7 @@ class Kotleni: Developer {
     var countryName: String = "Ukraine"
     var realAge: Int = 19
 
-    var resume: Resume = readme.resumeDict["iOS"]!
+    var resume: Resume = readme.resumeDict[request.resumeName]!
     var contacts: [String] = readme.contactsList
 }
 ```
