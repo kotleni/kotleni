@@ -2,7 +2,8 @@
 ```swift
 class Kotleni: Developer {
     var fullName: String = "Victor Varenik"
-    var countryName: String = "Ukraine"
+    var country: Country = .ukraine
+    var gender: Gender = .male
     var realAge: Int = 19
 
     var resume: Resume = linkedin.resumeRequest()
