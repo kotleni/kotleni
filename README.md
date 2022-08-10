@@ -1,13 +1,13 @@
 ### 👋 Welcome to my Github!
 ```swift
-class Kotleni: Developer {
+final class Kotleni: Developer {
     var fullName: String = "Victor Varenik"
     var country: Country = .ukraine
     var gender: Gender = .male
     var realAge: UInt8 = 20
 
-    var resume: Resume = linkedin.requestResume()
-    var contacts: Array<Contact> = readme.requestContacts()
+    var resume: Resume = requestResume()
+    var contacts: Array<Contact> = requestContacts()
 }
 ```
 <!--
