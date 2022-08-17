@@ -1,3 +1,4 @@
+<img src="https://github.com/kotleni/kotleni.github.io/blob/master/rocket.png?raw=true" width=40></a>
 ### 👋 Welcome to my Github!
 ```swift
 final class Kotleni: Developer {
