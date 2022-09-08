@@ -1,14 +1,11 @@
 ### 👋 Welcome to my Github!
 ```swift
-final class Kotleni: Developer {
-    var fullName: String = "Victor Varenik"
-    var country: Country = .ukraine
-    var gender: Gender = .male
-    var realAge: UInt8 = 20
-
-    var resume: Resume = requestResume()
-    var contacts: Array<Contact> = requestContacts()
-}
+class Kotleni(
+    override val fullName: String,
+    override val countryName: String,
+    override val gender: Gender,
+    override val realAge: Int
+) : Developer
 ```
 
 ### Contacts
