@@ -1,10 +1,11 @@
 ### 👋 Welcome to my Github!
-```swift
+I'm a 
+```kotlin
 class Kotleni(
-    override val fullName: String,
-    override val countryName: String,
-    override val gender: Gender,
-    override val realAge: Int
+    override val fullName: String = "Victor Varenik",
+    override val countryName: String = "Ukraine",
+    override val gender: Gender = Gender.Male,
+    override val realAge: Int = 20
 ) : Developer
 ```
 
