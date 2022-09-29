@@ -1,5 +1,4 @@
 ### 👋 Welcome to my Github!
-I'm a 
 ```kotlin
 class Kotleni(
     override val fullName: String = "Victor Varenik",
