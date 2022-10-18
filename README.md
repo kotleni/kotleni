@@ -1,11 +1,12 @@
-### 👋 Welcome to my Github!
+Welcome to the ![Hits-of-Code](https://img.shields.io/badge/kotlin-%230095D5.svg?style=flat-square&logo=kotlin&logoColor=white) developer page.
+
 ```kotlin
-class Kotleni(
+data class Kotleni(
     override val fullName: String = "Victor Varenik",
     override val countryName: String = "Ukraine",
     override val gender: Gender = Gender.Male,
     override val realAge: Int = 20
-) : Developer
+): Developer
 ```
 
 ### Contacts
