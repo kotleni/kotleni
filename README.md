@@ -2,6 +2,7 @@
 <a href="mailto:kotleni@icloud.com">[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/768px-Gmail_icon_%282020%29.svg.png" width=18 height=14 />  Email]</a>&nbsp;
 <a href="https://www.linkedin.com/in/victor-varenik-73324122a/">[<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width=18 height=18 />  LinkedIn]</a>
 
-I mainly develop for Android and Desktop using ![Hits-of-Code](https://img.shields.io/badge/kotlin-%230095D5.svg?style=flat-square&logo=kotlin&logoColor=white), but I also write in other languages.
+I mainly develop for Android and Desktop using ![Hits-of-Code](https://img.shields.io/badge/kotlin-%230095D5.svg?style=flat-square&logo=kotlin&logoColor=white),<br>
+but I also write in other languages. See my repositories for more information.
 
 <br>[![kotleni's GitHub stats](https://github-readme-stats.vercel.app/api?username=kotleni&theme=onedark&hide_title=true)](https://github.com/anuraghazra/github-readme-stats)
