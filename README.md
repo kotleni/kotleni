@@ -4,4 +4,4 @@
 
 I mainly develop for Android and Desktop using ![Hits-of-Code](https://img.shields.io/badge/kotlin-%230095D5.svg?style=flat-square&logo=kotlin&logoColor=white),<br> but I also can write in other programming languages. 
 
-<br>[![kotleni's GitHub stats](https://github-readme-stats.vercel.app/api?username=kotleni&theme=merko&hide_title=true)](https://github.com/anuraghazra/github-readme-stats&hide_border=true)
+<br>[![kotleni's GitHub stats](https://github-readme-stats.vercel.app/api?username=kotleni&theme=merko&hide_title=true&hide_border=true)](https://github.com/anuraghazra/github-readme-stats)
