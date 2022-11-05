@@ -3,3 +3,5 @@
 <a href="https://www.linkedin.com/in/victor-varenik-73324122a/">[<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width=18 height=18 />  LinkedIn]</a>
 
 I mainly develop for Android and Desktop using ![Hits-of-Code](https://img.shields.io/badge/kotlin-%230095D5.svg?style=flat-square&logo=kotlin&logoColor=white),<br> but I also can write in other programming languages. 
+
+<img src="https://github.com/kotleni/kotleni/blob/master/pink.gif?raw=true" width=160>
