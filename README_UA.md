@@ -6,7 +6,7 @@
 
 
 Ласкаво прошу. Мене звати Віктор, і я живу в Україні.<br>
-В основному я пишу для Android використовуючи![Hits-of-Code](https://img.shields.io/badge/kotlin-%230095D5.svg?style=flat-square&logo=kotlin&logoColor=white),<br> але я також пишу на інших мовах програмування.
+В основному я пишу для Android використовуючи ![Hits-of-Code](https://img.shields.io/badge/kotlin-%230095D5.svg?style=flat-square&logo=kotlin&logoColor=white),<br> але я також пишу і на інших мовах програмування.
 
 <img src="https://github.com/kotleni/kotleni/blob/master/pink.gif?raw=true" width=160> <-- <i>то я, ловлю баги</i>
 
