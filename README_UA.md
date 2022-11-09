@@ -2,7 +2,7 @@
 <a href="mailto:kotleni@icloud.com">[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/768px-Gmail_icon_%282020%29.svg.png" width=18 height=14 />  Пошта]</a>&nbsp;
 <a href="https://www.linkedin.com/in/victor-varenik-73324122a/">[<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width=18 height=18 />  LinkedIn]</a>
 &nbsp;|&nbsp;
-<a href="">[🏴󠁧󠁢󠁥󠁮󠁧󠁿 English]</a>
+<a href="https://github.com/kotleni/kotleni/blob/master/README.md">[🏴󠁧󠁢󠁥󠁮󠁧󠁿 English]</a>
 
 
 Ласкаво прошу. Мене звати Віктор, і я живу в Україні.<br>
