@@ -2,7 +2,7 @@
 <a href="mailto:kotleni@icloud.com">[<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/768px-Gmail_icon_%282020%29.svg.png" width=18 height=14 />  Email]</a>&nbsp;
 <a href="https://www.linkedin.com/in/victor-varenik-73324122a/">[<img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width=18 height=18 />  LinkedIn]</a>
 &nbsp;|&nbsp;
-<a href="https://github.com/kotleni/kotleni/blob/master/README_UA.md">[🇺🇦 Україньскою]</a>
+<!--a href="https://github.com/kotleni/kotleni/blob/master/README_UA.md">[🇺🇦 Україньскою]</a-->
 
 Welcome. My name is Victor, and I live in Ukraine.<br>
 I mainly develop Android applications using ![Hits-of-Code](https://img.shields.io/badge/kotlin-%230095D5.svg?style=flat-square&logo=kotlin&logoColor=white),<br> but I also can write in other programming languages. 
