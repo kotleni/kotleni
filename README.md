@@ -1,3 +1,5 @@
+<img width=70 src="https://raw.githubusercontent.com/yurijserrano/Github-Profile-Readme-Logos/042e36c55d4d757621dedc4f03108213fbb57ec4/ides/intellij.svg"/>
+
 <a href="https://t.me/kotleni">[Telegram]</a>&nbsp;
 <a href="mailto:yavarenikya@gmail.com">[Email]</a>&nbsp;
 <a href="https://www.linkedin.com/in/victor-varenik-73324122a/">[LinkedIn]</a>
