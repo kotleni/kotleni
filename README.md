@@ -7,3 +7,5 @@
 
 Welcome. My name is Viktor, and I live in Ukraine.<br>
 I mainly develop Android applications using ![Hits-of-Code](https://img.shields.io/badge/kotlin-%230095D5.svg?style=flat-square&logo=kotlin&logoColor=white),<br> but I also can write in other programming languages. 
+<br><br>
+![kotleni's GitHub stats](https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=true&theme=dracula)
