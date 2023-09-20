@@ -2,7 +2,7 @@
 
 - 📫 **Email**: [yavarenikya@gmail.com](mailto:yavarenikya@gmail.com)
 - 💬 **Telegram**: [@kotleni](https://t.me/kotleni)
-- 🌐 **LinkedIn**: [Victor Varenik](https://www.linkedin.com/in/victor-varenik-73324122a/)
+- 🌐 **LinkedIn**: [Viktor Varenik](https://www.linkedin.com/in/victor-varenik-73324122a/)
 - 🐦 **Twitter**: [@kotleni_](https://twitter.com/kotleni_)
 
 👋 Welcome! My name is Viktor, and I live in Ukraine. 🇺🇦
