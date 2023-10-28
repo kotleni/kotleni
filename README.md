@@ -7,15 +7,16 @@
 
 👋 Welcome! My name is Viktor, and I live in Ukraine. 🇺🇦
 
-💼 I'm an Android app developer with a passion for writing my own code.
-<br>I mainly work with Kotlin, and I enjoy crafting mobile experiences. 📱
+💼 I'm an Unity and Android developer with a passion for writing my own code.
+<br>I mainly work with Kotlin and C#, and I enjoy crafting mobile experiences. 📱
 
 🚀 Here's what I do:
 - 🔧 Developing Android applications
+- 🎈 Developing games on Unity
 - 🎨 Creating user-friendly interfaces
 - 🧩 Solving coding puzzles
 
-🌟 I'm not limited to just Kotlin; I can code in various programming languages.
+🌟 I'm not limited to just Kotlin and C#; I can code in various programming languages.
 
 📊 Check out my GitHub stats:<br>
 ![kotleni's GitHub stats](https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=true&theme=dracula)
