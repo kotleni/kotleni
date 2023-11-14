@@ -12,3 +12,5 @@
 - 🔧 Developing Android and iOS applications
 - 🎨 Creating user-friendly interfaces
 - 🧩 Solving coding puzzles
+
+[![GitHub Streak](https://streak-stats.demolab.com/?user=kotleni&theme=monokai-metallian)](https://git.io/streak-stats)
