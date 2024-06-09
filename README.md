@@ -20,5 +20,3 @@ let me = User(
 ### Contact me
 - 📫 **Email**: [yavarenikya@gmail.com](mailto:yavarenikya@gmail.com)
 - 💬 **Telegram**: [@kotleni](https://t.me/kotleni)
-
-<!-- NOPE -->
