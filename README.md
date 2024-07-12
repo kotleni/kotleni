@@ -4,7 +4,7 @@ Welcome to <img alt="Swift" src="https://img.shields.io/badge/Swift-FA7343?style
 val me = User(
   fullName = "Viktor Varenik",
   username = "kotleni",
-  gender = .male,
+  gender = Gender.male,
   age = 0x15, // 21
   
   contacts = listOf(
