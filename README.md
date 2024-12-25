@@ -4,6 +4,7 @@
 val me = declareUser(
   fullName = "Viktor Varenik",
   username = "kotleni",
+  isEmployed = true,
   gender = Gender.male,
   age = 0x16 // 22
 )
