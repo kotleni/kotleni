@@ -15,3 +15,5 @@ val me = declareUser(
 - 📫 **Email**: [yavarenikya@gmail.com](mailto:yavarenikya@gmail.com)
 - 🧭 **LinkedIn**: [linkedin.com/kotleni](https://www.linkedin.com/in/kotleni/)
 - 💬 **Telegram**: [@kotleni](https://t.me/kotleni)
+
+(❄️) <i>2025</i>
