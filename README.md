@@ -1,5 +1,3 @@
-<i>Coming soon</i>
-
 [![committers.top badge](https://user-badge.committers.top/ukraine/kotleni.svg)](https://user-badge.committers.top/ukraine/kotleni)
 
 ### Contact me
