@@ -1,5 +1,3 @@
-[![committers.top badge](https://user-badge.committers.top/ukraine/kotleni.svg)](https://user-badge.committers.top/ukraine/kotleni)
-
 <picture>
   <source
     srcset="https://github-readme-stats.vercel.app/api?username=kotleni&theme=dark&show_icons=false&hide_border=true&hide_title=true"
@@ -9,8 +7,22 @@
     srcset="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=false&hide_border=true&hide_title=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=false&hide_border=true&hide_title=true" />
+  <img align=center src="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=false&hide_border=true&hide_title=true" />
 </picture>
+
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="[https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=false&hide_border=true&hide_title=true](https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true)"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img align=center src="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true" />
+</picture>
+
+<img src="https://user-badge.committers.top/ukraine/kotleni.svg" />
 
 ### Contact me
 - 📫 **Email**: [yavarenikya@gmail.com](mailto:yavarenikya@gmail.com)
