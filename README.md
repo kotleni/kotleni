@@ -12,14 +12,14 @@
 
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true&theme=dark"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true&theme=dark&layout=compact"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="[https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=false&hide_border=true&hide_title=true](https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true)"
+    srcset="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=false&hide_border=true&hide_title=true&layout=compact"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img align=center src="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true" />
+  <img align=center src="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true&layout=compact" />
 </picture>
 
 <img src="https://user-badge.committers.top/ukraine/kotleni.svg" />
