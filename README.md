@@ -2,14 +2,14 @@
 
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=true&theme=dark"
+    srcset="https://github-readme-stats.vercel.app/api?username=kotleni&theme=dark&show_icons=false&hide_border=true&hide_title=true"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=true"
+    srcset="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=false&hide_border=true&hide_title=true"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img src="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=false&hide_border=true&hide_title=true" />
 </picture>
 
 ### Contact me
