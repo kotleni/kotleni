@@ -22,7 +22,9 @@
   <img align=center src="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true&layout=compact" />
 </picture>
 
-<img src="https://user-badge.committers.top/ukraine/kotleni.svg" />
+<a href="https://committers.top/ukraine#kotleni">
+  <img src="https://user-badge.committers.top/ukraine/kotleni.svg" />
+</a>
 
 ### Contact me
 - 📫 **Email**: [yavarenikya@gmail.com](mailto:yavarenikya@gmail.com)
