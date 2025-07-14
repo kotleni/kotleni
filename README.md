@@ -1,30 +1,30 @@
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=kotleni&theme=dark&show_icons=false&hide_border=true&hide_title=true&cached=1"
+    srcset="https://github-readme-stats.vercel.app/api?username=kotleni&theme=dark&show_icons=false&hide_border=true&hide_title=true&cached=2"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=false&hide_border=true&hide_title=true&cached=1"
+    srcset="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=false&hide_border=true&hide_title=true&cached=2"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img align=center src="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=false&hide_border=true&hide_title=true&cached=1" />
+  <img align=center src="https://github-readme-stats.vercel.app/api?username=kotleni&show_icons=false&hide_border=true&hide_title=true&cached=2" />
 </picture>
 
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true&theme=dark&layout=compact&cached=1"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true&theme=dark&layout=compact&cached=2"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true&layout=compact&cached=1"
+    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true&layout=compact&cached=2"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img align=center src="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true&layout=compact&cached=1" />
+  <img align=center src="https://github-readme-stats.vercel.app/api/top-langs/?username=kotleni&hide_border=true&layout=compact&cached=2" />
 </picture>
 
 <br>
 <a href="https://committers.top/ukraine#kotleni">
-  <img src="https://user-badge.committers.top/ukraine/kotleni.svg?cached=1" />
+  <img src="https://user-badge.committers.top/ukraine/kotleni.svg?cached=2" />
 </a>
 
 ### Contact me
