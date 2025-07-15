@@ -1,51 +1,121 @@
-const crypto = require('crypto');
+const crypto = require('node:crypto');
+const { URL, URLSearchParams } = require('node:url');
 
-const USERNAME = 'kotleni';
-const CACHED_UUID = crypto.randomUUID();
+const config = {
+  githubUsername: 'kotleni',
 
-const statsImage = `
-<picture>
+  contact: {
+    email: 'yavarenikya@gmail.com',
+    linkedin: 'kotleni',
+    telegram: 'kotleni',
+  },
+
+  statsCard: {
+    show_icons: false,
+    hide_border: true,
+    hide_title: true,
+  },
+
+  topLangsCard: {
+    hide_border: true,
+    layout: 'compact',
+  },
+
+  committersBadge: {
+    country: 'ukraine',
+  }
+};
+
+/**
+ * Creates block with picture for light and dark themes.
+ */
+function generatePicture(baseUrl, lightParams, imgAttributes = '') {
+  const darkParams = { ...lightParams, theme: 'dark' };
+
+  const lightUrl = new URL(baseUrl);
+  lightUrl.search = new URLSearchParams(lightParams);
+
+  const darkUrl = new URL(baseUrl);
+  darkUrl.search = new URLSearchParams(darkParams);
+
+  return `<picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=${USERNAME}&theme=dark&show_icons=false&hide_border=true&hide_title=true&cached=${CACHED_UUID}"
+    srcset="${darkUrl.toString()}"
     media="(prefers-color-scheme: dark)"
   />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=false&hide_border=true&hide_title=true&cached=${CACHED_UUID}"
+    srcset="${lightUrl.toString()}"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
   />
-  <img align=center src="https://github-readme-stats.vercel.app/api?username=${USERNAME}&show_icons=false&hide_border=true&hide_title=true&cached=${CACHED_UUID}" />
+  <img ${imgAttributes} src="${lightUrl.toString()}" />
 </picture>`;
+}
 
-const topLangsImage = `
-<picture>
-  <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&hide_border=true&theme=dark&layout=compact&cached=${CACHED_UUID}"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&hide_border=true&layout=compact&cached=${CACHED_UUID}"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img align=center src="https://github-readme-stats.vercel.app/api/top-langs/?username=${USERNAME}&hide_border=true&layout=compact&cached=${CACHED_UUID}" />
-</picture>`;
 
-const committersBadge = `
-<a href="https://committers.top/ukraine#${USERNAME}">
-  <img src="https://user-badge.committers.top/ukraine/${USERNAME}.svg?cached=${CACHED_UUID}" />
+/**
+ * Creates the GitHub Stats card markdown.
+ */
+function generateStatsImage({ githubUsername, statsCard }, cacheBuster) {
+  const baseUrl = 'https://github-readme-stats.vercel.app/api';
+  const params = { username: githubUsername, ...statsCard, cached: cacheBuster };
+  return generatePicture(baseUrl, params, 'align="center"');
+}
+
+/**
+ * Creates the Top Languages card markdown.
+ */
+function generateTopLangsImage({ githubUsername, topLangsCard }, cacheBuster) {
+  const baseUrl = 'https://github-readme-stats.vercel.app/api/top-langs/';
+  const params = { username: githubUsername, ...topLangsCard, cached: cacheBuster };
+  return generatePicture(baseUrl, params, 'align="center"');
+}
+
+/**
+ * Creates the Committers.top badge markdown.
+ */
+function generateCommittersBadge({ githubUsername, committersBadge }, cacheBuster) {
+  const { country } = committersBadge;
+  const imageUrl = new URL(`https://user-badge.committers.top/${country}/${githubUsername}.svg`);
+  imageUrl.searchParams.set('cached', cacheBuster);
+
+  const linkUrl = `https://committers.top/${country}#${githubUsername}`;
+  return `<a href="${linkUrl}">
+  <img src="${imageUrl.toString()}" />
 </a>`;
+}
 
-const contactInfo = `
-### Contact me
-- 📫 **Email**: [yavarenikya@gmail.com](mailto:yavarenikya@gmail.com)
-- 🧭 **LinkedIn**: [linkedin.com/kotleni](https://www.linkedin.com/in/kotleni/)
-- 💬 **Telegram**: [@kotleni](https://t.me/kotleni)`;
+/**
+ * Creates the "Contact me" section markdown.
+ */
+function generateContactInfo({ contact }) {
+  if (!contact) return '';
 
-const readmeContent = `
-${statsImage}
-${topLangsImage}
-<br>
-${committersBadge}
-${contactInfo}
-`;
+  const { email, linkedin, telegram } = contact;
+  const items = [
+    email && `- 📫 **Email**: [${email}](mailto:${email})`,
+    linkedin && `- 🧭 **LinkedIn**: [linkedin.com/in/${linkedin}](https://www.linkedin.com/in/${linkedin}/)`,
+    telegram && `- 💬 **Telegram**: [@${telegram}](https://t.me/${telegram})`,
+  ].filter(Boolean); // Removes any empty entries if a contact method isn't provided
 
-console.log(readmeContent.trim());
+  if (items.length === 0) return '';
+
+  return `### Contact me\n${items.join('\n')}`;
+}
+
+function generateReadme(userConfig) {
+  const cacheBuster = crypto.randomUUID();
+
+  // Assemble the parts.
+  const sections = [
+    generateStatsImage(userConfig, cacheBuster),
+    generateTopLangsImage(userConfig, cacheBuster),
+    '<br>',
+    generateCommittersBadge(userConfig, cacheBuster),
+    generateContactInfo(userConfig),
+  ];
+
+  return sections.join('\n\n');
+}
+
+const readmeContent = generateReadme(config);
+console.log(readmeContent);
