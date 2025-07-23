@@ -97,7 +97,7 @@ function generateContactInfo({ contact }) {
     email && `- 📫 **Email**: [${email}](mailto:${email})`,
     linkedin && `- 🧭 **LinkedIn**: [linkedin.com/in/${linkedin}](https://www.linkedin.com/in/${linkedin}/)`,
     telegram && `- 💬 **Telegram**: [@${telegram}](https://t.me/${telegram})`,
-  ].filter(Boolean); // Removes any empty entries if a contact method isn't provided
+  ];
 
   if (items.length === 0) return '';
 
