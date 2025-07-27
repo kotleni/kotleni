@@ -109,10 +109,10 @@ function generateReadme(userConfig) {
 
   // Assemble the parts.
   const sections = [
-    generateStatsImage(userConfig, cacheBuster),
+    //generateStatsImage(userConfig, cacheBuster),
     //generateTopLangsImage(userConfig, cacheBuster),
-    '<br>',
-    generateCommittersBadge(userConfig, cacheBuster),
+    //'<br>',
+    //generateCommittersBadge(userConfig, cacheBuster),
     generateContactInfo(userConfig),
   ];
 
