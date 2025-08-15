@@ -1,6 +1,6 @@
 {
-    "name": "iSH",
-    "identifier": "app.ish.iSH",
+    "name": "Epic Games Alternative",
+    "identifier": "com.epicgames",
     "apps": [
         {
             "bundleIdentifier": "com.epicgames.FortniteGame",
