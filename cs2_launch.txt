@@ -1,1 +1,1 @@
-LD_PRELOAD="" gamemoderun %command% -high -vulkan -high -nojoy -novid -noaafonts -nofxaa -cl_forcepreload 1 -sv_forcepreload 1 -threads 12 -sdlaudiodriver pulse -dev +mat_queue_mode 2 +exec silly.cfg
+LD_PRELOAD="" gamemoderun %command% -vulkan -high -nojoy -novid -sdlaudiodriver pulse -dev +exec silly.cfg
