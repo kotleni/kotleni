@@ -121,7 +121,7 @@ function generateNewYearCountdown() {
   if (daysLeft <= 31) emoji = '🎄'; // December
   else if (daysLeft <= 60) emoji = '❄️'; // Late Autumn/Winter
   
-  return `### ${emoji} ${daysLeft} days until New Year`;
+  return `*${emoji} ${daysLeft} days until New Year*`;
 }
 
 function generateReadme(userConfig) {
