@@ -129,34 +129,12 @@ function generateNewYearCountdown() {
   return `### ${emoji} ${daysLeft} days until New Year`;
 }
 
-/**
- * Fetches a random programming joke.
- */
-async function generateRandomJoke() {
-  try {
-    const res = await fetch('https://official-joke-api.appspot.com/jokes/programming/random');
-    if (!res.ok) throw new Error(`API error: ${res.status}`);
-    
-    const jokes = await res.json();
-    const joke = jokes[0]; 
-    
-    return `### 🤣 Joke of the build\n> ${joke.setup}\n>\n> *${joke.punchline}*`;
-  } catch (error) {
-    console.error('Could not fetch joke:', error.message);
-    return ''; 
-  }
-}
-
 async function generateReadme(userConfig) {
   const cacheBuster = crypto.randomUUID();
-
-  // Fetch async content
-  const jokeSection = await generateRandomJoke();
 
   // Assemble the parts.
   const sections = [
     generateNewYearCountdown(),
-    jokeSection, // Added joke here
     //generateStatsImage(userConfig, cacheBuster),
     //generateTopLangsImage(userConfig, cacheBuster),
     //'<br>',
