@@ -104,11 +104,32 @@ function generateContactInfo({ contact }) {
   return `### Contact me\n${items.join('\n')}`;
 }
 
+function generateNewYearCountdown() {
+  const today = new Date();
+  const currentYear = today.getFullYear();
+  const nextYear = currentYear + 1;
+  const newYearDate = new Date(nextYear, 0, 1);
+
+  // Calculate difference in milliseconds
+  const diffTime = newYearDate - today;
+  // Convert to days (Math.ceil ensures we count the current partial day)
+  const daysLeft = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+
+  // Determine emoji based on remaining days
+  let emoji = '⏳'; 
+  if (daysLeft === 0) return '🎆 Happy New Year!';
+  if (daysLeft <= 31) emoji = '🎄'; // December
+  else if (daysLeft <= 60) emoji = '❄️'; // Late Autumn/Winter
+  
+  return `### ${emoji} ${daysLeft} days until New Year`;
+}
+
 function generateReadme(userConfig) {
   const cacheBuster = crypto.randomUUID();
 
   // Assemble the parts.
   const sections = [
+    generateNewYearCountdown(),
     //generateStatsImage(userConfig, cacheBuster),
     //generateTopLangsImage(userConfig, cacheBuster),
     //'<br>',
