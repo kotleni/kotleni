@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "uuid": "^13.0.0",
     "xmlbuilder2": "^4.0.1"
   }
 }

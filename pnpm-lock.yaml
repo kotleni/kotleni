@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      uuid:
+        specifier: ^13.0.0
+        version: 13.0.0
       xmlbuilder2:
         specifier: ^4.0.1
         version: 4.0.1
@@ -35,6 +38,10 @@ packages:
 
   js-yaml@4.1.1:
     resolution: {integrity: sha512-qQKT4zQxXl8lLwBtHMWwaTcGfFOZviOJet3Oy/xmGk2gZH677CJM9EvtfdSkgWcATZhj/55JZ0rmy3myCT5lsA==}
+    hasBin: true
+
+  uuid@13.0.0:
+    resolution: {integrity: sha512-XQegIaBTVUjSHliKqcnFqYypAd4S+WCYt5NIeRs6w/UAry7z8Y9j5ZwRRL4kzq9U3sD6v+85er9FvkEaBpji2w==}
     hasBin: true
 
   xmlbuilder2@4.0.1:
@@ -65,6 +72,8 @@ snapshots:
   js-yaml@4.1.1:
     dependencies:
       argparse: 2.0.1
+
+  uuid@13.0.0: {}
 
   xmlbuilder2@4.0.1:
     dependencies:

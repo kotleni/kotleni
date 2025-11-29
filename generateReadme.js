@@ -1,5 +1,6 @@
 const fs = require('node:fs');
 const path = require('node:path');
+const { v4 } = require('uuid')
 const { create } = require('xmlbuilder2');
 
 const config = {
@@ -68,6 +69,7 @@ function generateButton(key, value) {
         links.push(`<a href='${getUrl(key, val)}'><img src='./assets/${filename}' height='32'></a>`);
     });
 
+    console.log(`<!-- ${v4()} -->`);
     console.log(`<p align="center">`);
     console.log(links.join(' '));
     console.log(`</p>`);
