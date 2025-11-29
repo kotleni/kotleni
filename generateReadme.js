@@ -2,7 +2,6 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { create } = require('xmlbuilder2');
 
-// --- Configuration ---
 const config = {
     githubUsername: 'kotleni',
     contact: {
@@ -11,10 +10,8 @@ const config = {
         linkedin: 'kotleni',
         telegram: 'kotleni',
     },
-    // Removed Stats, Top Langs, Badge configs as requested
 };
 
-// --- Styles (Dark/Light Mode) ---
 function getCommonStyle() {
     return `
     .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
@@ -36,8 +33,6 @@ function getCommonStyle() {
     `;
 }
 
-// --- SVG Generator Helpers ---
-
 function createBaseSvg(width, height) {
     const doc = create().ele('svg', {
         width: width,
@@ -52,14 +47,8 @@ function createBaseSvg(width, height) {
 function saveSvg(doc, filename) {
     const xml = doc.end({ prettyPrint: true });
     fs.writeFileSync(path.join(__dirname, filename), xml);
-    console.log(`✅ Generated: ${filename}`);
 }
 
-// --- Content Generators ---
-
-/**
- * Generates header.svg with New Year countdown
- */
 function generateHeader() {
     const width = 800;
     const height = 80;
@@ -78,12 +67,10 @@ function generateHeader() {
     else if (daysLeft <= 31) { emoji = '🎄'; }
     else if (daysLeft <= 60) { emoji = '❄️'; }
 
-    const titleText = `${emoji} ${daysLeft} Days until New Year`;
+    const titleText = `${emoji} Days until New Year: ${daysLeft}`;
 
-    // SVG Structure
     const g = doc.ele('g');
 
-    // Title
     g.ele('text')
         .att('class', 'text title fill-text')
         .att('x', '50%').att('y', 35)
@@ -100,23 +87,17 @@ function generateHeader() {
     saveSvg(doc, 'header.svg');
 }
 
-/**
- * Generates a small pill button SVG for a specific label
- */
 function generateButton(key, value) {
-    // Icons map
     const icons = {
         website: '🌍',
         email: '📫',
-        linkedin: 'mw', // simplified char or use emoji '💼'
+        linkedin: '💼',
         telegram: '💬'
     };
 
-    // Formatting text
     let label = key.charAt(0).toUpperCase() + key.slice(1);
     let icon = icons[key] || '🔗';
 
-    // Calculate width dynamically based on text length (approximate)
     const textStr = `${icon}  ${label}`;
     const width = 24 + (textStr.length * 8);
     const height = 30;
@@ -125,14 +106,12 @@ function generateButton(key, value) {
 
     const g = doc.ele('g');
 
-    // Background Rect
     g.ele('rect')
         .att('class', 'btn-bg')
         .att('width', width - 1) // minus stroke width
         .att('height', height - 1)
         .att('x', 0.5).att('y', 0.5);
 
-    // Text
     g.ele('text')
         .att('class', 'text btn-text fill-text')
         .att('x', width / 2).att('y', 19) // vertically centered manually
@@ -143,19 +122,12 @@ function generateButton(key, value) {
     return filename;
 }
 
-// --- Main Execution ---
-
 (async () => {
-    console.log('--- Starting Generation ---');
-
-    // 1. Generate Header
     generateHeader();
 
-    // 2. Generate Buttons and prepare Markdown output
     const links = [];
     const { contact } = config;
 
-    // Helper to format URLs
     const getUrl = (key, val) => {
         if (key === 'email') return `mailto:${val}`;
         if (key === 'linkedin') return `https://www.linkedin.com/in/${val}/`;
@@ -166,16 +138,12 @@ function generateButton(key, value) {
     Object.entries(contact).forEach(([key, val]) => {
         if (!val) return;
 
-        // Create the SVG file
         const filename = generateButton(key, val);
 
-        // Prepare the markdown link: [![Alt](image_url)](link_url)
         const url = getUrl(key, val);
-        links.push(`[![${key}](./${filename})](${url})`);
+        links.push(`<a href='${url}'><img src='${filename}'></a>`);
     });
 
-    // 3. Output the README snippet
-    console.log('\n--- Paste this into your README.md ---');
     console.log(`<p align="center">`);
     console.log(`  <img src="./header.svg" width="100%" alt="Header" />`);
     console.log(`</p>\n`);
