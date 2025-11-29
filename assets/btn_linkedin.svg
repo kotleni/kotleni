@@ -1,25 +1,37 @@
 <?xml version="1.0"?>
-<svg width="100" height="30" viewBox="0 0 100 30" xmlns="http://www.w3.org/2000/svg">
+<svg width="110" height="40" viewBox="0 0 110 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="10" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <filter id="btnShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.1"/>
+    </filter>
+    <linearGradient id="meshGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F2F2F7"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#007AFF"/>
+      <stop offset="100%" stop-color="#00C7BE"/>
+    </linearGradient>
+  </defs>
   <style>
-    .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
-    .title { font-weight: 700; font-size: 20px; }
-    .subtitle { font-weight: 400; font-size: 14px; }
-    .btn-text { font-weight: 600; font-size: 12px; text-anchor: middle; }
+    .text { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+    .name { font-weight: 700; font-size: 28px; fill: #1C1C1E; letter-spacing: -0.5px; }
+    .role { font-weight: 500; font-size: 16px; fill: #8E8E93; }
+    .stat-val { font-weight: 600; font-size: 18px; fill: #1C1C1E; }
+    .stat-label { font-weight: 500; font-size: 12px; fill: #8E8E93; text-transform: uppercase; letter-spacing: 0.5px; }
+    .location { font-weight: 400; font-size: 13px; fill: #aeaeb2; }
+    .card-bg { fill: url(#meshGrad); stroke: #E5E5EA; stroke-width: 1px; }
+    .icon-circle { fill: url(#accentGrad); }
+    .icon-text { fill: #FFFFFF; font-weight: 700; font-size: 24px; }
     
-    /* Light Mode */
-    .fill-text { fill: #24292e; }
-    .fill-sub { fill: #586069; }
-    .btn-bg { fill: #f3f4f6; stroke: #d1d5da; stroke-width: 1px; rx: 6px; }
-
-    /* Dark Mode */
-    @media (prefers-color-scheme: dark) {
-        .fill-text { fill: #c9d1d9; }
-        .fill-sub { fill: #8b949e; }
-        .btn-bg { fill: #21262d; stroke: #30363d; }
-    }
+    .btn-bg { fill: #FFFFFF; stroke: #E5E5EA; stroke-width: 0.5px; transition: 0.2s; }
+    .btn-text { font-weight: 600; font-size: 14px; fill: #1C1C1E; }
     </style>
   <g>
-    <rect class="btn-bg" width="99" height="29" x="0.5" y="0.5"/>
-    <text class="text btn-text fill-text" x="50" y="19">💼  Linkedin</text>
+    <rect class="btn-bg" x="2" y="2" width="106" height="36" rx="18" filter="url(#btnShadow)"/>
+    <text class="text btn-text" x="55" y="25" text-anchor="middle">in</text>
   </g>
 </svg>
