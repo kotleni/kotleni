@@ -38,7 +38,7 @@ function createSvg(width, height) {
 }
 
 function generateButton(key, value) {
-    const icons = { website: 'Link', email: 'Mail', linkedin: 'LinkedIn', telegram: 'Telegram' };
+    const icons = { website: 'Website', email: 'Mail', linkedin: 'LinkedIn', telegram: 'Telegram' };
     const label = icons[key] || key;
 
     const width = 110;
