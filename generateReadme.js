@@ -54,14 +54,13 @@ function generateHeader() {
     const height = 80;
     const doc = createBaseSvg(width, height);
 
-    // Logic
     const today = new Date();
     const nextYear = today.getFullYear() + 1;
     const diff = new Date(nextYear, 0, 1) - today;
     const daysLeft = Math.ceil(diff / (1000 * 60 * 60 * 24));
 
     let emoji = '⏳';
-    let subText = 'Keep pushing forward.';
+    let subText = 'Open source youself!';
 
     if (daysLeft === 0) { emoji = '🎆'; subText = `Happy ${nextYear}!`; }
     else if (daysLeft <= 31) { emoji = '🎄'; }
@@ -77,14 +76,13 @@ function generateHeader() {
         .att('text-anchor', 'middle')
         .txt(titleText);
 
-    // Subtitle
     g.ele('text')
         .att('class', 'text subtitle fill-sub')
         .att('x', '50%').att('y', 60)
         .att('text-anchor', 'middle')
         .txt(subText);
 
-    saveSvg(doc, 'header.svg');
+    saveSvg(doc, './assets/header.svg');
 }
 
 function generateButton(key, value) {
@@ -99,7 +97,7 @@ function generateButton(key, value) {
     let icon = icons[key] || '🔗';
 
     const textStr = `${icon}  ${label}`;
-    const width = 24 + (textStr.length * 8);
+    const width = 100;
     const height = 30;
 
     const doc = createBaseSvg(width, height);
@@ -108,16 +106,16 @@ function generateButton(key, value) {
 
     g.ele('rect')
         .att('class', 'btn-bg')
-        .att('width', width - 1) // minus stroke width
+        .att('width', width - 1)
         .att('height', height - 1)
         .att('x', 0.5).att('y', 0.5);
 
     g.ele('text')
         .att('class', 'text btn-text fill-text')
-        .att('x', width / 2).att('y', 19) // vertically centered manually
+        .att('x', width / 2).att('y', 19)
         .txt(textStr);
 
-    const filename = `btn_${key}.svg`;
+    const filename = `./assets/btn_${key}.svg`;
     saveSvg(doc, filename);
     return filename;
 }
@@ -145,10 +143,10 @@ function generateButton(key, value) {
     });
 
     console.log(`<p align="center">`);
-    console.log(`  <img src="./header.svg" width="100%" alt="Header" />`);
+    console.log(`  <img src="./assets/header.svg" width="100%" alt="Header" />`);
     console.log(`</p>\n`);
 
     console.log(`<p align="center">`);
-    console.log(links.join(' ')); // Space separated buttons
+    console.log(links.join(' '));
     console.log(`</p>`);
 })();
