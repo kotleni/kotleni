@@ -1,0 +1,14 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "node ./generateReadme.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "xmlbuilder2": "^4.0.1"
+  }
+}
