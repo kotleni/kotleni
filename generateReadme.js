@@ -5,7 +5,7 @@ const { create } = require('xmlbuilder2');
 
 const config = {
     contact: {
-        website: 'kotleni.io',
+        website: 'kotleni.github.io',
         email: 'yavarenikya@gmail.com',
         linkedin: 'kotleni',
         telegram: 'kotleni',
@@ -60,6 +60,7 @@ function generateButton(key, value) {
         if (key === 'email') return `mailto:${val}`;
         if (key === 'linkedin') return `https://www.linkedin.com/in/${val}/`;
         if (key === 'telegram') return `https://t.me/${val}`;
+        if (key === 'website') return `https://${val}`;
         return val;
     };
 
