@@ -1,153 +1,186 @@
-const crypto = require('node:crypto');
-const { URL, URLSearchParams } = require('node:url');
+const fs = require('node:fs');
+const path = require('node:path');
+const { create } = require('xmlbuilder2');
 
-const scriptGithubUrl = 'https://github.com/kotleni/kotleni/blob/master/generateReadme.js';
-
+// --- Configuration ---
 const config = {
-  githubUsername: 'kotleni',
-
-  contact: {
-    email: 'yavarenikya@gmail.com',
-    linkedin: 'kotleni',
-    telegram: 'kotleni',
-    website: 'https://kotleni.github.io', 
-  },
-
-  statsCard: {
-    show_icons: false,
-    hide_border: true,
-    hide_title: true,
-  },
-
-  topLangsCard: {
-    hide_border: true,
-    layout: 'compact',
-  },
-
-  committersBadge: {
-    country: 'ukraine',
-  }
+    githubUsername: 'kotleni',
+    contact: {
+        website: 'https://kotleni.github.io',
+        email: 'yavarenikya@gmail.com',
+        linkedin: 'kotleni',
+        telegram: 'kotleni',
+    },
+    // Removed Stats, Top Langs, Badge configs as requested
 };
 
-/**
- * Creates block with picture for light and dark themes.
- */
-function generatePicture(baseUrl, lightParams, imgAttributes = '') {
-  const darkParams = { ...lightParams, theme: 'dark' };
+// --- Styles (Dark/Light Mode) ---
+function getCommonStyle() {
+    return `
+    .text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .title { font-weight: 700; font-size: 20px; }
+    .subtitle { font-weight: 400; font-size: 14px; }
+    .btn-text { font-weight: 600; font-size: 12px; text-anchor: middle; }
+    
+    /* Light Mode */
+    .fill-text { fill: #24292e; }
+    .fill-sub { fill: #586069; }
+    .btn-bg { fill: #f3f4f6; stroke: #d1d5da; stroke-width: 1px; rx: 6px; }
 
-  const lightUrl = new URL(baseUrl);
-  lightUrl.search = new URLSearchParams(lightParams);
-
-  const darkUrl = new URL(baseUrl);
-  darkUrl.search = new URLSearchParams(darkParams);
-
-  return `<picture>
-  <source
-    srcset="${darkUrl.toString()}"
-    media="(prefers-color-scheme: dark)"
-  />
-  <source
-    srcset="${lightUrl.toString()}"
-    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
-  />
-  <img ${imgAttributes} src="${lightUrl.toString()}" />
-</picture>`;
+    /* Dark Mode */
+    @media (prefers-color-scheme: dark) {
+        .fill-text { fill: #c9d1d9; }
+        .fill-sub { fill: #8b949e; }
+        .btn-bg { fill: #21262d; stroke: #30363d; }
+    }
+    `;
 }
 
+// --- SVG Generator Helpers ---
 
-/**
- * Creates the GitHub Stats card markdown.
- */
-function generateStatsImage({ githubUsername, statsCard }, cacheBuster) {
-  const baseUrl = 'https://github-readme-stats.vercel.app/api';
-  const params = { username: githubUsername, ...statsCard, cached: cacheBuster };
-  return generatePicture(baseUrl, params, 'align="center"');
+function createBaseSvg(width, height) {
+    const doc = create().ele('svg', {
+        width: width,
+        height: height,
+        viewBox: `0 0 ${width} ${height}`,
+        xmlns: 'http://www.w3.org/2000/svg'
+    });
+    doc.ele('style').txt(getCommonStyle());
+    return doc;
 }
 
-/**
- * Creates the Top Languages card markdown.
- */
-function generateTopLangsImage({ githubUsername, topLangsCard }, cacheBuster) {
-  const baseUrl = 'https://github-readme-stats.vercel.app/api/top-langs/';
-  const params = { username: githubUsername, ...topLangsCard, cached: cacheBuster };
-  return generatePicture(baseUrl, params, 'align="center"');
+function saveSvg(doc, filename) {
+    const xml = doc.end({ prettyPrint: true });
+    fs.writeFileSync(path.join(__dirname, filename), xml);
+    console.log(`✅ Generated: ${filename}`);
 }
 
-/**
- * Creates the Committers.top badge markdown.
- */
-function generateCommittersBadge({ githubUsername, committersBadge }, cacheBuster) {
-  const { country } = committersBadge;
-  const imageUrl = new URL(`https://user-badge.committers.top/${country}/${githubUsername}.svg`);
-  imageUrl.searchParams.set('cached', cacheBuster);
-
-  const linkUrl = `https://committers.top/${country}#${githubUsername}`;
-  return `<a href="${linkUrl}">
-  <img src="${imageUrl.toString()}" />
-</a>`;
-}
+// --- Content Generators ---
 
 /**
- * Creates the "Contact me" section markdown.
+ * Generates header.svg with New Year countdown
  */
-function generateContactInfo({ contact }) {
-  if (!contact) return '';
+function generateHeader() {
+    const width = 800;
+    const height = 80;
+    const doc = createBaseSvg(width, height);
 
-  const { email, linkedin, telegram, website } = contact;
-  const items = [
-    website && `- 🌍 **Website**: [${website}](${website})`,
-    email && `- 📫 **Email**: [${email}](mailto:${email})`,
-    linkedin && `- 🧭 **LinkedIn**: [linkedin.com/in/${linkedin}](https://www.linkedin.com/in/${linkedin}/)`,
-    telegram && `- 💬 **Telegram**: [@${telegram}](https://t.me/${telegram})`,
-  ];
+    // Logic
+    const today = new Date();
+    const nextYear = today.getFullYear() + 1;
+    const diff = new Date(nextYear, 0, 1) - today;
+    const daysLeft = Math.ceil(diff / (1000 * 60 * 60 * 24));
 
-  // Filter out undefined items (in case a config value is missing)
-  const validItems = items.filter(Boolean);
+    let emoji = '⏳';
+    let subText = 'Keep pushing forward.';
 
-  if (validItems.length === 0) return '';
+    if (daysLeft === 0) { emoji = '🎆'; subText = `Happy ${nextYear}!`; }
+    else if (daysLeft <= 31) { emoji = '🎄'; }
+    else if (daysLeft <= 60) { emoji = '❄️'; }
 
-  return `### Contact me\n${validItems.join('\n')}`;
+    const titleText = `${emoji} ${daysLeft} Days until New Year`;
+
+    // SVG Structure
+    const g = doc.ele('g');
+
+    // Title
+    g.ele('text')
+        .att('class', 'text title fill-text')
+        .att('x', '50%').att('y', 35)
+        .att('text-anchor', 'middle')
+        .txt(titleText);
+
+    // Subtitle
+    g.ele('text')
+        .att('class', 'text subtitle fill-sub')
+        .att('x', '50%').att('y', 60)
+        .att('text-anchor', 'middle')
+        .txt(subText);
+
+    saveSvg(doc, 'header.svg');
 }
 
-function generateNewYearCountdown() {
-  const today = new Date();
-  const currentYear = today.getFullYear();
-  const nextYear = currentYear + 1;
-  const newYearDate = new Date(nextYear, 0, 1);
+/**
+ * Generates a small pill button SVG for a specific label
+ */
+function generateButton(key, value) {
+    // Icons map
+    const icons = {
+        website: '🌍',
+        email: '📫',
+        linkedin: 'mw', // simplified char or use emoji '💼'
+        telegram: '💬'
+    };
 
-  // Calculate difference in milliseconds
-  const diffTime = newYearDate - today;
-  // Convert to days (Math.ceil ensures we count the current partial day)
-  const daysLeft = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    // Formatting text
+    let label = key.charAt(0).toUpperCase() + key.slice(1);
+    let icon = icons[key] || '🔗';
 
-  // Determine emoji based on remaining days
-  let emoji = '⏳'; 
-  if (daysLeft === 0) return '🎆 Happy New Year!';
-  if (daysLeft <= 31) emoji = '🎄'; // December
-  else if (daysLeft <= 60) emoji = '❄️'; // Late Autumn/Winter
-  
-  return `*${emoji} Days until New Year: ${daysLeft}*`;
+    // Calculate width dynamically based on text length (approximate)
+    const textStr = `${icon}  ${label}`;
+    const width = 24 + (textStr.length * 8);
+    const height = 30;
+
+    const doc = createBaseSvg(width, height);
+
+    const g = doc.ele('g');
+
+    // Background Rect
+    g.ele('rect')
+        .att('class', 'btn-bg')
+        .att('width', width - 1) // minus stroke width
+        .att('height', height - 1)
+        .att('x', 0.5).att('y', 0.5);
+
+    // Text
+    g.ele('text')
+        .att('class', 'text btn-text fill-text')
+        .att('x', width / 2).att('y', 19) // vertically centered manually
+        .txt(textStr);
+
+    const filename = `btn_${key}.svg`;
+    saveSvg(doc, filename);
+    return filename;
 }
 
-async function generateReadme(userConfig) {
-  const cacheBuster = crypto.randomUUID();
-
-  // Assemble the parts.
-  const sections = [
-    generateNewYearCountdown(),
-    //generateStatsImage(userConfig, cacheBuster),
-    //generateTopLangsImage(userConfig, cacheBuster),
-    //'<br>',
-    //generateCommittersBadge(userConfig, cacheBuster),
-    generateContactInfo(userConfig),
-  ];
-
-  // Filter out empty strings (e.g., if joke failed)
-  return sections.filter(Boolean).join('\n\n');
-}
+// --- Main Execution ---
 
 (async () => {
-  const readmeContent = await generateReadme(config);
-  console.log(`<!-- This readme generated by ${scriptGithubUrl} -->`);
-  console.log(readmeContent);
+    console.log('--- Starting Generation ---');
+
+    // 1. Generate Header
+    generateHeader();
+
+    // 2. Generate Buttons and prepare Markdown output
+    const links = [];
+    const { contact } = config;
+
+    // Helper to format URLs
+    const getUrl = (key, val) => {
+        if (key === 'email') return `mailto:${val}`;
+        if (key === 'linkedin') return `https://www.linkedin.com/in/${val}/`;
+        if (key === 'telegram') return `https://t.me/${val}`;
+        return val;
+    };
+
+    Object.entries(contact).forEach(([key, val]) => {
+        if (!val) return;
+
+        // Create the SVG file
+        const filename = generateButton(key, val);
+
+        // Prepare the markdown link: [![Alt](image_url)](link_url)
+        const url = getUrl(key, val);
+        links.push(`[![${key}](./${filename})](${url})`);
+    });
+
+    // 3. Output the README snippet
+    console.log('\n--- Paste this into your README.md ---');
+    console.log(`<p align="center">`);
+    console.log(`  <img src="./header.svg" width="100%" alt="Header" />`);
+    console.log(`</p>\n`);
+
+    console.log(`<p align="center">`);
+    console.log(links.join(' ')); // Space separated buttons
+    console.log(`</p>`);
 })();
