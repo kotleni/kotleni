@@ -1,8 +1,4 @@
-
-> build@1.0.0 build
-> node ./generateReadme.js
-
-<!-- 8edf3194-64e7-4cda-9efb-d3fde3ab9ee4 -->
+<!-- ff814a5e-57d2-42b0-8138-043110a6b893 -->
 <p align="center">
 <a href='https://kotleni.github.io'><img src='./assets/btn_website.svg' height='32'></a> <a href='mailto:yavarenikya@gmail.com'><img src='./assets/btn_email.svg' height='32'></a> <a href='https://www.linkedin.com/in/kotleni/'><img src='./assets/btn_linkedin.svg' height='32'></a> <a href='https://t.me/kotleni'><img src='./assets/btn_telegram.svg' height='32'></a>
 </p>
