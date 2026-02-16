@@ -1,7 +1,7 @@
 {
   "name": "build",
   "version": "1.0.0",
-  "description": "",
+  "description": "Readme generator for kotleni github.",
   "scripts": {
     "build": "node ./generateReadme.js"
   },
