@@ -8,9 +8,6 @@ Check out <a href="https://me.kotle.uk">my website</a> to learn more.<br>
 
 ![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB&style=flat-square)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white&style=flat-square)
-![Vue](https://img.shields.io/badge/Vue.js-35495E?logo=vue.js&logoColor=white&style=flat-square)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?logo=nuxt&logoColor=white&style=flat-square)
-
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white&style=flat-square)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=flat-square)
 
