@@ -1,6 +1,3 @@
-Hey! I’m Kotleni 😼. I build web apps for work, play with C/C++ for fun, and used to code Android and iOS apps in the past. <br>
-Check out <a href="https://me.kotle.uk">my website</a> to learn more.<br>
-
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat-square)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=flat-square)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white&style=flat-square)
@@ -19,3 +16,5 @@ Check out <a href="https://me.kotle.uk">my website</a> to learn more.<br>
 
 ## Contacts
 📧 [Email](mailto:yavarenikya@gmail.com) • 💼 [LinkedIn](https://www.linkedin.com/in/kotleni/) • 💬 [Discord](https://discord.com/users/420149869601357824) • 📱 [Telegram](https://t.me/kotleni)
+
+<b>Check out <a href="https://me.kotle.uk">my website</a> to learn more.</b>
