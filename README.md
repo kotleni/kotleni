@@ -9,8 +9,8 @@
 
 ## Publications
 * <a href="https://me.kotle.uk/blog/baking-markdown-into-html">Baking Markdown into HTML</a>
-* <a href="https://kotle.uk/blog/hosting-infrastructure">My hosting infrastructure</a>
-* <a href="https://kotle.uk/blog/asahi-linux">Why I abandoned idea of using Asahi Linux</a>
+<!--* <a href="https://kotle.uk/blog/hosting-infrastructure">My hosting infrastructure</a>-->
+<!--* <a href="https://kotle.uk/blog/asahi-linux">Why I abandoned idea of using Asahi Linux</a>-->
 * <a href="https://kotle.uk/blog/new-website-v6">The sixth iteration of my website</a>
 
 
